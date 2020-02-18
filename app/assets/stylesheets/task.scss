@@ -1,0 +1,59 @@
+// Place all the styles related to the Task controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+li {
+  display: flex;
+  padding: 10px;
+  font-size: 24px
+}
+
+h1 {
+  font-size: 64px;
+}
+
+.details {
+  border: solid;
+  border-color: #dbdbda;
+  border-radius: 5px;
+  background-color: #dbdbda;
+}
+
+.retour {
+  padding-top: 15px;
+}
+
+.add_new {
+  padding-top:15px;
+}
+
+.form-group {
+  justify-content: left;
+}
+
+.labels {
+  display: flex;
+  border: solid;
+  border-width: thin;
+  border-color: #edeaea;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.labels:hover {
+  border-color: #4267b2;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: #4267b2;
+  margin-top: 15px;
+}
+
+.edit-task {
+  justify-content: right;
+}
+
+.button_update {
+  justify-content: left;
+}
